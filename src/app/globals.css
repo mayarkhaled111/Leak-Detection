@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  direction: rtl;
+  font-family: "Inter", sans-serif;
+}
+.logo {
+  width: 70px;
+}
+header{
+  border-bottom: 1px solid rgba(236, 232, 232, 0.218);
+}
+.bg-div{
+  background-image: url('../assets/Image/background.png');
+  background-blend-mode: overlay;
+}
+.button{
+  background-color: #3162da ;
+  color: #fff;
+  padding-inline: 16px ;
+  padding-block: 4px ;
+  margin-top: 32px;
+  border-radius: 12px;
+  font-weight: 700;
+}
